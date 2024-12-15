@@ -1,7 +1,7 @@
 // 現在時刻表示
 var nowDate = new Date();
 var nowYYYY = nowDate.getFullYear();
-var nowMM = nowDate.getMonth();
+var nowMM = nowDate.getMonth() + 1;
 var nowDD = nowDate.getDate();
 
 // 出力
